@@ -1,1 +1,3 @@
-### Aim of the experiment
+ In this experiment, we will use binary trees to represent expressions. This is useful to Generating code for expressions which is an important part of compilers. Expression trees can also be used to check for correctness of expressions. Therefore, while we can evaluate expressions without resorting to using trees, using trees helps us in further processing of expressions.
+
+Here we will see another way of storing an expression, in the form of a tree, called the expression tree. An expression tree makes it easy to visualize the expression and evaluate it. An expression tree for an expression with only unary or binary operators is a binary tree where the leaf nodes are the operands and the internal nodes are the operators. We will also look at three types of tree traversals, which gives the three forms of writing an expression (Infix, Postfix and Prefix). 
